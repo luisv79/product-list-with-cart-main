@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-import imageCarrito from "../assets/images/icon-add-to-cart.svg";
-import imagenIncrementar from "../assets/images/icon-increment-quantity.svg";
-import imagenDecrementar from "../assets/images/icon-decrement-quantity.svg";
+//import React, { useState } from "react";
+import imageCarrito from "../../public/images/icon-add-to-cart.svg";
+import imagenIncrementar from "../../public/images/icon-increment-quantity.svg";
+import imagenDecrementar from "../../public/images/icon-decrement-quantity.svg";
 
 function Card({ image, name, category, price, onAddToCart, onUpdateQuantity, cartItems }) {
   const cartItem = cartItems.find((item) => item.name === name);

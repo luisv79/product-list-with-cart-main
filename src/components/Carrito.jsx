@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import caritoVacio from "../assets/images/illustration-empty-cart.svg";
-import imgCerrar from "../assets/images/icon-remove-item.svg";
-import imgEcologico from "../assets/images/icon-carbon-neutral.svg";
-import imgCheck from "../assets/images/icon-order-confirmed.svg";
+import caritoVacio from "../../public/images/illustration-empty-cart.svg";
+import imgCerrar from "../../public/images/icon-remove-item.svg";
+import imgEcologico from "../../public/images/icon-carbon-neutral.svg";
+import imgCheck from "../../public/images/icon-order-confirmed.svg";
 
 function Carrito({ cartItems, onRemove }) {
   const [showModal, setShowModal] = useState(false);
